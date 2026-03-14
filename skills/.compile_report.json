@@ -1,0 +1,398 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "mumax3",
+  "evidence": {
+    "core_skills": [
+      "mumax3-templates",
+      "mumax3-getting-started",
+      "mumax3-cuda",
+      "mumax3-parallel-hpc",
+      "mumax3-build-and-install",
+      "mumax3-tex"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/mumax3-templates.md",
+      "skills/.evidence/mumax3-getting-started.md",
+      "skills/.evidence/mumax3-cuda.md",
+      "skills/.evidence/mumax3-parallel-hpc.md",
+      "skills/.evidence/mumax3-build-and-install.md",
+      "skills/.evidence/mumax3-tex.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/mumax3-advanced-topics/SKILL.md",
+        "skills/mumax3-advanced-topics/references/doc_map.md",
+        "skills/mumax3-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/mumax3-advanced-topics/SKILL.md",
+        "skills/mumax3-advanced-topics/references/doc_map.md",
+        "skills/mumax3-advanced-topics/references/source_map.md",
+        "skills/mumax3-bench/SKILL.md",
+        "skills/mumax3-bench/references/doc_map.md",
+        "skills/mumax3-bench/references/source_map.md",
+        "skills/mumax3-build-and-install/SKILL.md",
+        "skills/mumax3-cuda/SKILL.md",
+        "skills/mumax3-getting-started/SKILL.md",
+        "skills/mumax3-index/SKILL.md",
+        "skills/mumax3-inputs-and-modeling/SKILL.md",
+        "skills/mumax3-inputs-and-modeling/references/doc_map.md",
+        "skills/mumax3-inputs-and-modeling/references/source_map.md",
+        "skills/mumax3-parallel-hpc/SKILL.md",
+        "skills/mumax3-readme/SKILL.md",
+        "skills/mumax3-readme/references/doc_map.md",
+        "skills/mumax3-readme/references/source_map.md",
+        "skills/mumax3-script/SKILL.md",
+        "skills/mumax3-script/references/doc_map.md",
+        "skills/mumax3-script/references/source_map.md",
+        "skills/mumax3-templates/SKILL.md",
+        "skills/mumax3-tex/SKILL.md"
+      ],
+      "deleted": [
+        "skills/mumax3-bench/SKILL.md",
+        "skills/mumax3-bench/references/doc_map.md",
+        "skills/mumax3-bench/references/source_map.md",
+        "skills/mumax3-inputs-and-modeling/SKILL.md",
+        "skills/mumax3-inputs-and-modeling/references/doc_map.md",
+        "skills/mumax3-inputs-and-modeling/references/source_map.md",
+        "skills/mumax3-readme/SKILL.md",
+        "skills/mumax3-readme/references/doc_map.md",
+        "skills/mumax3-readme/references/source_map.md",
+        "skills/mumax3-script/SKILL.md",
+        "skills/mumax3-script/references/doc_map.md",
+        "skills/mumax3-script/references/source_map.md"
+      ],
+      "modified": [
+        "skills/mumax3-build-and-install/SKILL.md",
+        "skills/mumax3-cuda/SKILL.md",
+        "skills/mumax3-getting-started/SKILL.md",
+        "skills/mumax3-index/SKILL.md",
+        "skills/mumax3-parallel-hpc/SKILL.md",
+        "skills/mumax3-templates/SKILL.md",
+        "skills/mumax3-tex/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/.evidence/mumax3-inputs-and-modeling.md",
+        "skills/mumax3-index/references/doc_map.md",
+        "skills/mumax3-index/references/source_map.md",
+        "skills/mumax3-inputs-and-modeling/SKILL.md",
+        "skills/mumax3-inputs-and-modeling/references/doc_map.md",
+        "skills/mumax3-inputs-and-modeling/references/source_map.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/manifest.json",
+        "skills/.evidence/memory.md",
+        "skills/.evidence/mumax3-build-and-install.md",
+        "skills/.evidence/mumax3-cuda.md",
+        "skills/.evidence/mumax3-getting-started.md",
+        "skills/.evidence/mumax3-inputs-and-modeling.md",
+        "skills/.evidence/mumax3-parallel-hpc.md",
+        "skills/.evidence/mumax3-templates.md",
+        "skills/.evidence/mumax3-tex.md",
+        "skills/.evidence/skill_plan.json",
+        "skills/mumax3-advanced-topics/SKILL.md",
+        "skills/mumax3-advanced-topics/references/doc_map.md",
+        "skills/mumax3-advanced-topics/references/source_map.md",
+        "skills/mumax3-build-and-install/SKILL.md",
+        "skills/mumax3-build-and-install/references/doc_map.md",
+        "skills/mumax3-build-and-install/references/source_map.md",
+        "skills/mumax3-cuda/SKILL.md",
+        "skills/mumax3-cuda/references/doc_map.md",
+        "skills/mumax3-cuda/references/source_map.md",
+        "skills/mumax3-getting-started/SKILL.md",
+        "skills/mumax3-getting-started/references/doc_map.md",
+        "skills/mumax3-getting-started/references/source_map.md",
+        "skills/mumax3-index/SKILL.md",
+        "skills/mumax3-index/references/doc_map.md",
+        "skills/mumax3-index/references/source_map.md",
+        "skills/mumax3-inputs-and-modeling/SKILL.md",
+        "skills/mumax3-inputs-and-modeling/references/doc_map.md",
+        "skills/mumax3-inputs-and-modeling/references/source_map.md",
+        "skills/mumax3-parallel-hpc/SKILL.md",
+        "skills/mumax3-parallel-hpc/references/doc_map.md",
+        "skills/mumax3-parallel-hpc/references/source_map.md",
+        "skills/mumax3-templates/SKILL.md",
+        "skills/mumax3-templates/references/doc_map.md",
+        "skills/mumax3-templates/references/source_map.md",
+        "skills/mumax3-tex/SKILL.md",
+        "skills/mumax3-tex/references/doc_map.md",
+        "skills/mumax3-tex/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/.evidence/manifest.json",
+        "skills/.evidence/mumax3-build-and-install.md",
+        "skills/.evidence/mumax3-cuda.md",
+        "skills/.evidence/mumax3-getting-started.md",
+        "skills/.evidence/mumax3-parallel-hpc.md",
+        "skills/.evidence/mumax3-templates.md",
+        "skills/.evidence/mumax3-tex.md",
+        "skills/.evidence/skill_plan.json",
+        "skills/mumax3-advanced-topics/SKILL.md",
+        "skills/mumax3-advanced-topics/references/doc_map.md",
+        "skills/mumax3-advanced-topics/references/source_map.md",
+        "skills/mumax3-build-and-install/SKILL.md",
+        "skills/mumax3-build-and-install/references/doc_map.md",
+        "skills/mumax3-build-and-install/references/source_map.md",
+        "skills/mumax3-cuda/SKILL.md",
+        "skills/mumax3-cuda/references/doc_map.md",
+        "skills/mumax3-cuda/references/source_map.md",
+        "skills/mumax3-getting-started/SKILL.md",
+        "skills/mumax3-getting-started/references/doc_map.md",
+        "skills/mumax3-getting-started/references/source_map.md",
+        "skills/mumax3-index/SKILL.md",
+        "skills/mumax3-parallel-hpc/SKILL.md",
+        "skills/mumax3-parallel-hpc/references/doc_map.md",
+        "skills/mumax3-parallel-hpc/references/source_map.md",
+        "skills/mumax3-templates/SKILL.md",
+        "skills/mumax3-templates/references/doc_map.md",
+        "skills/mumax3-templates/references/source_map.md",
+        "skills/mumax3-tex/SKILL.md",
+        "skills/mumax3-tex/references/doc_map.md",
+        "skills/mumax3-tex/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Root README.md contains the main build and install guidance but falls outside this directory-only schema.",
+      "Examples are split between inline website templates under doc/templates and runnable .mx3 scripts in test/ and bench/.",
+      "Unit tests are colocated in cuda/, data/, gui/, httpfs/, and script/ in addition to the large test/ regression suite.",
+      "Top-level Makefile and go.mod are important build entry points outside the tracked directories."
+    ],
+    "package_name": "mumax3",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "cmd",
+      "cuda",
+      "data",
+      "deploy",
+      "draw",
+      "dump",
+      "engine",
+      "freetype",
+      "gui",
+      "httpfs",
+      "mag",
+      "oommf",
+      "script",
+      "svgo",
+      "timer",
+      "util"
+    ],
+    "test_dirs": [
+      "test",
+      "cuda",
+      "data",
+      "gui",
+      "httpfs",
+      "script"
+    ],
+    "tutorial_dirs": [
+      "bench",
+      "test"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mumax3-3",
+  "run_id": "compile_20260314T214355209922Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "mumax3-bench",
+      "mumax3-build-and-install",
+      "mumax3-cuda",
+      "mumax3-getting-started",
+      "mumax3-index",
+      "mumax3-inputs-and-modeling",
+      "mumax3-parallel-hpc",
+      "mumax3-readme",
+      "mumax3-script",
+      "mumax3-templates",
+      "mumax3-tex"
+    ],
+    "core_skill_ids": [
+      "mumax3-templates",
+      "mumax3-getting-started",
+      "mumax3-cuda",
+      "mumax3-parallel-hpc",
+      "mumax3-build-and-install",
+      "mumax3-tex"
+    ],
+    "deferred_gaps": [
+      "Root-level docs and build files (README.md, Makefile, go.mod) are not directly representable in the directory-only compile profile.",
+      "The doc site examples are embedded in templates rather than stored as standalone example files.",
+      "Pass 3 should audit whether an inputs-and-modeling skill is needed separately from API/scripting and examples after topic generation."
+    ],
+    "goal": "Generate a deterministic docs-first MuMax3 skills skeleton, then enrich the highest-value usage skills in passes 2 and 3.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "docs-first routing across install, scripting, workflows, output, HPC, and troubleshooting",
+          "when to prefer README.md, doc/, test/, or implementation directories"
+        ],
+        "reason": "MuMax3 spans build docs, inline website docs, runnable scripts, and many top-level source packages, so the router must steer requests before deep inspection.",
+        "skill_id": "mumax3-index",
+        "source_hints": [
+          "README.md",
+          "doc",
+          "test",
+          "cmd",
+          "engine",
+          "script",
+          "cuda"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Linux and Windows build paths",
+          "CUDA, Go, compiler, and GPU capability prerequisites",
+          "deploy script usage and common build failures"
+        ],
+        "reason": "The root README and deploy scripts contain the most important first-run guidance, platform caveats, and compiler/CUDA prerequisites.",
+        "skill_id": "mumax3-build-and-install",
+        "source_hints": [
+          "README.md",
+          "Makefile",
+          "deploy",
+          "cmd/mumax3",
+          "cuda",
+          "go.mod"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "input script syntax and control flow",
+          "API reference routing",
+          "script interpreter entry points and validation patterns"
+        ],
+        "reason": "Most user interaction is through the MuMax3 scripting language and generated API docs rather than direct Go package imports.",
+        "skill_id": "mumax3-inputs-and-modeling",
+        "source_hints": [
+          "doc/static/api310.html",
+          "doc/templates/api-template.html",
+          "script",
+          "engine",
+          "cmd/mumax3-script",
+          "test"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "run and restart workflow",
+          "relax versus minimize versus dynamic runs",
+          "autosave, tables, and output checkpoints"
+        ],
+        "reason": "Users need a compressed path for setup, run, relax/minimize, checkpointing, and output handling across standard simulation tasks.",
+        "skill_id": "mumax3-tex",
+        "source_hints": [
+          "doc/templates/examples-template.html",
+          "engine",
+          "cmd/mumax3",
+          "test",
+          "bench"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "single-GPU runtime expectations",
+          "CUDA package layout and capability constraints",
+          "mumax3-server and network execution model"
+        ],
+        "reason": "GPU-specific execution, CUDA bindings, and the cluster/server mode are major package differentiators and frequent failure points.",
+        "skill_id": "mumax3-parallel-hpc",
+        "source_hints": [
+          "README.md",
+          "cuda",
+          "cmd/mumax3-server",
+          "bench",
+          "deploy"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "mumax3-tex",
+      "mumax3-templates",
+      "mumax3-parallel-hpc",
+      "mumax3-inputs-and-modeling",
+      "mumax3-getting-started",
+      "mumax3-cuda"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mumax3-3/skills/mumax3-templates/references/source_map.md: broken path references: table.txt",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mumax3-3/skills/mumax3-tex/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mumax3-3/skills/mumax3-templates/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mumax3-3/skills/mumax3-parallel-hpc/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mumax3-3/skills/mumax3-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mumax3-3/skills/mumax3-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mumax3-3/skills/mumax3-cuda/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "mumax3-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "mumax3-index",
+      "mumax3-build-and-install",
+      "mumax3-inputs-and-modeling",
+      "mumax3-tex",
+      "mumax3-parallel-hpc"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 9,
+    "source_inventory": {},
+    "source_links_total": 62,
+    "topic_skills": 8,
+    "warnings": []
+  }
+}
